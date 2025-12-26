@@ -3,7 +3,7 @@
 ## Sobre o repositório
 
 Este repositório serve como **template base** para a criação de novos projetos **backend em Java**, com foco em **padronização arquitetural, organização de código e boas práticas**.
-O objetivo é fornecer uma estrutura inicial sólida e clara, facilitando o início de novos projetos e garantindo consistência entre repositórios.
+O objetivo é fornecer uma estrutura inicial **sólida, clara e flexível**, facilitando o início de novos projetos e garantindo consistência entre repositórios.
 
 ---
 
@@ -32,6 +32,26 @@ src/main/java
 ```
 
 > A estrutura pode (e deve) ser adaptada conforme o contexto do projeto, mas o princípio de **separação de responsabilidades** deve ser mantido.
+
+---
+
+## README_BASE.md
+Este repositório contém um arquivo [README_BASE.md](README_BASE.md), que serve como **modelo flexível** para novos projetos.
+Ele foi pensado para:
+- Documentar projetos reais
+- Explicar decisões técnicas
+- Demonstrar organização e maturidade técnica
+- Ser adaptado conforme o contexto do projeto
+
+### Como utilizar
+1. Crie um novo repositório usando Use this template
+2. Renomeie README_BASE.md para README.md
+   ```
+    mv README_BASE.md README.md
+   ```
+3. Remova ou substitua este README
+4. Ajuste o conteúdo do README conforme o projeto
+5. Inicie o desenvolvimento
 
 ---
 
@@ -76,8 +96,9 @@ Este template incentiva:
 1. Clique em **Use this template** no GitHub
 2. Crie um novo repositório a partir deste template
 3. Ajuste o nome do projeto e do pacote base
-4. Substitua este README pelo README específico do projeto
-5. Comece o desenvolvimento
+4. Renomeie `README_BASE.md` para `README.md`
+5. Edite o README com as informações específicas do projeto
+6. Comece o desenvolvimento
 
 ---
 
